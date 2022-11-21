@@ -21,15 +21,10 @@ digitCnts1 = []
 digitCnts2 = []
 digitCnts3 = []
 
-#record1 本例可忽略record1
 digitCnts1.append((92,8,12,24))
-#record2 本例可忽略record2
 digitCnts2.append((95,104,12,24))
 digitCnts2.append((111,105,12,24))
-#record3 本例子使用的只有record3
-	#第一个数字位置
 digitCnts3.append((75,44,26,58))
-	#第二个数字位置
 digitCnts3.append((115,43,26,58))
 #digitCnts.append((152,20,10,20))
 
@@ -148,13 +143,10 @@ while(cap.isOpened()):
 	cv2.imshow("output2", output2)
 	cv2.imshow("output3", output3)
 	
-	#record1 本例可忽略record1
 	thresh1 = cv2.threshold(warped1, 112, 255,
 	cv2.THRESH_BINARY_INV)[1]
-	#record2 本例可忽略record2
 	thresh2 = cv2.threshold(warped2, 180, 255,
 	cv2.THRESH_BINARY_INV )[1]
-	#record3 本例子使用的只有record3
 	thresh3 = cv2.threshold(warped3, 110, 255,
 	cv2.THRESH_BINARY_INV)[1]
 	
