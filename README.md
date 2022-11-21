@@ -1,7 +1,7 @@
 # QLEO
 
-App_List.pdf contains the application list.
+The ```App_List.pdf``` presents the application list.
 
-Code/ folder contains the implementation of QLEO.
+The ```Code/``` folder contains the implementation of QLEO.
 
-CVBasedVideoDataCapture/ folder contains the computer-vision-based video data catpre mechanism. 
+The ```CVBasedVideoDataCapture/``` folder contains the computer-vision-based video data catpre mechanism. 
