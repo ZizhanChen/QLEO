@@ -9,4 +9,4 @@ Replace the files with the following relative paths of your Andoird source code:
 /hardware/rockchip/hwcomposer/drmdisplaycompositor.h
 /hardware/rockchip/hwcomposer/drmdisplaycompositor.cpp
 /frameworks/native/libs/renderengine/gl/GLESRenderEngine.h
-/frameworks/native/libs/renderengine/gl/GLESRenderEngine.cpp```
+/frameworks/native/libs/renderengine/gl/GLESRenderEngine.cpp
